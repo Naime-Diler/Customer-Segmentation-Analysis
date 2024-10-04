@@ -28,26 +28,26 @@ df1 = df.copy()
 def grab_col_names(dataframe, cat_th=10, car_th=20):
     """
 
-    Veri setindeki kategorik, numerik ve kategorik fakat kardinal değişkenlerin isimlerini verir.
-    Not: Kategorik değişkenlerin içerisine numerik görünümlü kategorik değişkenler de dahildir.
+    Listet die Namen der kategorischen, numerischen und kardinalen Variablen im Datensatz auf.
+    Hinweis: Zu den kategorischen Variablen zählen auch numerisch erscheinende, kategorische Variablen.
 
     Parameters
     ------
         dataframe: dataframe
-                Değişken isimleri alınmak istenilen dataframe
+                Der DataFrame, aus dem die Variablennamen extrahiert werden sollen.
         cat_th: int, optional
-                numerik fakat kategorik olan değişkenler için sınıf eşik değeri
+                Schwellenwert für die Klassen von numerischen, aber kategorischen Variablen.
         car_th: int, optinal
-                kategorik fakat kardinal değişkenler için sınıf eşik değeri
+                Schwellenwert für die Klassen von kategorischen, aber kardinalen Variablen.
 
     Returns
     ------
         cat_cols: list
-                Kategorik değişken listesi
+                Liste der kategorischen Variablen.
         num_cols: list
-                Numerik değişken listesi
+                Liste der numerischen Variablen.
         cat_but_car: list
-                Kategorik görünümlü kardinal değişken listesi
+                Liste der kategorisch erscheinenden kardinalen Variablen.
 
     Examples
     ------
@@ -58,9 +58,9 @@ def grab_col_names(dataframe, cat_th=10, car_th=20):
 
     Notes
     ------
-        cat_cols + num_cols + cat_but_car = toplam değişken sayısı
-        num_but_cat cat_cols'un içerisinde.
-        Return olan 3 liste toplamı toplam değişken sayısına eşittir: cat_cols + num_cols + cat_but_car = değişken sayısı
+        num_but_cat befindet sich innerhalb von cat_cols.
+        Die Summe der drei Listen, die zurückgegeben werden, entspricht der Gesamtzahl der Variablen:
+        cat_cols + num_cols + cat_but_car = Anzahl der Variablen.
 
     """
 
