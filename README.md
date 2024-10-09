@@ -27,11 +27,11 @@ Um das Projekt lokal auszuführen, befolgen Sie die folgenden Schritte:
 2. Installieren Sie die erforderlichen Abhängigkeiten aus der Datei `requirements.txt`.
 3. Verwenden Sie das Dockerfile, um das Projekt in einem Docker-Container zu starten.
 
-**Dockerfile**  
+## Dockerfile  
 Im Projekt wurde die Datei `Segmentierungsmodell.py`, die sich im Verzeichnis `.src/` befindet, über das Dockerfile schichtweise aufgebaut.
 
 
-**GitHub Actions**
+## GitHub Actions
 Im Verzeichnis `.github/workflows` sind Automatisierungsszenarien für GitHub Actions hinterlegt. Die Datei `docker-image.yml` beschreibt einen Workflow, der den Prozess des Erstellens und Veröffentlichens eines Docker-Images automatisiert. Mehr Details dazu unter GitHub Wiki.
 
 
