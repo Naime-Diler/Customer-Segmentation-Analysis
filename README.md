@@ -8,7 +8,7 @@ Der `MallCustomer.csv`-Datensatz enthält Kundenmerkmale wie Kunden-ID, Geschlec
 
 ## Dateistruktur
 - **`eda/`**: Beinhaltet Python-Skripte für die explorative Datenanalyse des MallCustomer-Datensatzes.
-- **`segment_model/`**: Enthält Python-Skripte zur Entwicklung und Validierung von Kundensegmentierungsmodellen.
+- **`Segmentierungsmodell/`**: Enthält Python-Skripte zur Entwicklung und Validierung von Kundensegmentierungsmodellen.
 
 ## Explorative Datenanalyse (EDA)
 Die EDA umfasst:
@@ -22,12 +22,29 @@ Das Segmentierungsmodell wird unter Anwendung von Clustering-Methoden entwickelt
 2. Modellauswahl: Evaluation verschiedener Clustering-Algorithmen wie K-Means oder hierarchisches Clustering.
 
 ## Einrichtung
-Anweisungen zur Einrichtung der Projektumgebung.
+Um das Projekt lokal auszuführen, befolgen Sie die folgenden Schritte:
+1. Klonen Sie das Repository von GitHub.
+2. Installieren Sie die erforderlichen Abhängigkeiten aus der Datei `requirements.txt`.
+3. Verwenden Sie das Dockerfile, um das Projekt in einem Docker-Container zu starten.
+
+**Dockerfile**  
+Im Projekt wurde die Datei `Segmentierungsmodell.py`, die sich im Verzeichnis `.src/` befindet, über das Dockerfile schichtweise aufgebaut.
+
+
+**GitHub Actions**
+Im Verzeichnis `.github/workflows` sind Automatisierungsszenarien für GitHub Actions hinterlegt. Die Datei `docker-image.yml` beschreibt einen Workflow, der den Prozess des Erstellens und Veröffentlichens eines Docker-Images automatisiert. Mehr Details dazu unter GitHub Wiki.
+
+
 
 ## Nutzung
-Anleitung zum Ausführen der EDA-Skripte sowie zur Modellierung und zum Testen des Segmentierungsmodells.
+Um die EDA-Skripte auszuführen, verwenden Sie die folgenden Befehle:
+```bash
+python eda.py
+python Segmentierungsmodell.py
+```
 
 ## Beitrag
-Anleitung zur Mitwirkung am Projekt.
+Das Projekt ist Open Source und steht für Beiträge offen. Sie können über GitHub Pull Requests einreichen, um das Projekt zu verbessern. Weitere Details finden Sie in der GitHub-Wiki.
 
 ## Lizenz
+Dieses Projekt ist unter der MIT-Lizenz lizenziert.
