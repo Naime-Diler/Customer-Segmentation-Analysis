@@ -34,7 +34,7 @@ Im Projekt wurde die Datei `Segmentierungsmodell.py`, die sich im Verzeichnis `.
 
 
 ## GitHub Actions
-Im Verzeichnis `.github/workflows` sind Automatisierungsszenarien für GitHub Actions hinterlegt. Die Datei `docker-image.yml` beschreibt einen Workflow, der den Prozess des Erstellens und Veröffentlichens eines Docker-Images automatisiert. Mehr Details dazu unter GitHub Wiki.
+Im Verzeichnis `.github/workflows` sind Automatisierungsszenarien für GitHub Actions hinterlegt. Die Datei `docker-image.yml` beschreibt einen Workflow, der den Prozess des Erstellens und Veröffentlichens eines Docker-Images automatisiert. Mehr Details dazu unter GitHub Wiki: https://github.com/Naime-Diler/Customer-Segmentation-Analysis/wiki
 
 
 
