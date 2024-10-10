@@ -23,18 +23,18 @@ Das Segmentierungsmodell wird unter Anwendung von Clustering-Methoden entwickelt
 2. Modellauswahl: Evaluation verschiedener Clustering-Algorithmen wie K-Means oder hierarchisches Clustering.
 
 ## Einrichtung
-Um das Projekt lokal auszuführen, befolgen Sie die folgenden Schritte:
-1. Klonen Sie das Repository von GitHub.
+Folgen Sie diesen Schritten, um das Projekt lokal auszuführen:
+1. Klonen Sie das Repository:
    ```bash
-git clone https://github.com/Naime-Diler/Customer-Segmentation-Analysis.git
-```
+   git clone https://github.com/Naime-Diler/Customer-Segmentation-Analysis.git
+   ```
+2. Installieren Sie die Abhängigkeiten:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Starten Sie das Projekt mit Docker:
+   Verwenden Sie das bereitgestellte Dockerfile, um das Projekt in einer isolierten Umgebung auszuführen. Weitere Informationen finden Sie im [GitHub Wiki](https://github.com/Naime-Diler/Customer-Segmentation-Analysis/wiki).
 
-2. Installieren Sie die erforderlichen Abhängigkeiten aus der Datei `requirements.txt`.
-      ```bash
-pip install -r requirements.txt
-```
-
-3. Verwenden Sie das Dockerfile, um das Projekt in einem Docker-Container zu starten.
 
 ## Dockerfile  
 Im Projekt wurde die Datei `Segmentierungsmodell.py`, die sich im Verzeichnis `.src/` befindet, über das Dockerfile schichtweise aufgebaut.
