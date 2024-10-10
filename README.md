@@ -7,8 +7,9 @@ Ziel dieses Projekts ist es, mithilfe der Kundendaten aus dem `MallCustomer.csv`
 Der `MallCustomer.csv`-Datensatz enthält Kundenmerkmale wie Kunden-ID, Geschlecht, Alter, Jahreseinkommen und Ausgaben-Score.
 
 ## Dateistruktur
-- **`eda/`**: Beinhaltet Python-Skripte für die explorative Datenanalyse des MallCustomer-Datensatzes.
-- **`Segmentierungsmodell/`**: Enthält Python-Skripte zur Entwicklung und Validierung von Kundensegmentierungsmodellen.
+- **`src/`**: Beinhaltet alle Python-Skripte für die explorative Datenanalyse und die Entwicklung der Segmentierungsmodelle:
+- **`eda/`**: Explorative Datenanalyse des MallCustomer-Datensatzes.
+- **`Segmentierungsmodell/`**: Entwicklung und Validierung von Kundensegmentierungsmodellen.
 
 ## Explorative Datenanalyse (EDA)
 Die EDA umfasst:
