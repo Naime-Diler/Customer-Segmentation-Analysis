@@ -7,7 +7,8 @@ Ziel dieses Projekts ist es, mithilfe der Kundendaten aus dem `MallCustomer.csv`
 Der `MallCustomer.csv`-Datensatz enthält Kundenmerkmale wie Kunden-ID, Geschlecht, Alter, Jahreseinkommen und Ausgaben-Score.
 
 ## Dateistruktur
-- **`src/`**: Beinhaltet alle Python-Skripte für die explorative Datenanalyse und die Entwicklung der Segmentierungsmodelle:
+**`src/`**: Beinhaltet alle Python-Skripte für die explorative Datenanalyse und die Entwicklung der Segmentierungsmodelle:
+
 - **`eda/`**: Explorative Datenanalyse des MallCustomer-Datensatzes.
 - **`Segmentierungsmodell/`**: Entwicklung und Validierung von Kundensegmentierungsmodellen.
 
@@ -40,8 +41,8 @@ Im Verzeichnis `.github/workflows` sind Automatisierungsszenarien für GitHub Ac
 ## Nutzung
 Um die EDA-Skripte auszuführen, verwenden Sie die folgenden Befehle:
 ```bash
-python eda.py
-python Segmentierungsmodell.py
+python src/eda.py
+python src/Segmentierungsmodell.py
 ```
 
 ## Beitrag
