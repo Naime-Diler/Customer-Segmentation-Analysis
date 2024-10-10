@@ -35,16 +35,6 @@ Folgen Sie diesen Schritten, um das Projekt lokal auszuführen:
 3. Starten Sie das Projekt mit Docker:
    Verwenden Sie das bereitgestellte Dockerfile, um das Projekt in einer isolierten Umgebung auszuführen. Weitere Informationen finden Sie im [GitHub Wiki](https://github.com/Naime-Diler/Customer-Segmentation-Analysis/wiki).
 
-
-## Dockerfile  
-Im Projekt wurde die Datei `Segmentierungsmodell.py`, die sich im Verzeichnis `.src/` befindet, über das Dockerfile schichtweise aufgebaut.
-
-
-## GitHub Actions
-Im Verzeichnis `.github/workflows` sind Automatisierungsszenarien für GitHub Actions hinterlegt. Die Datei `docker-image.yml` beschreibt einen Workflow, der den Prozess des Erstellens und Veröffentlichens eines Docker-Images automatisiert. Mehr Details dazu unter GitHub Wiki: https://github.com/Naime-Diler/Customer-Segmentation-Analysis/wiki
-
-
-
 ## Nutzung
 Um die EDA-Skripte auszuführen, verwenden Sie die folgenden Befehle:
 ```bash
@@ -52,8 +42,17 @@ python src/eda.py
 python src/Segmentierungsmodell.py
 ```
 
+
+## Dockerfile  
+Im Projekt wurde die Datei `Segmentierungsmodell.py`, die sich im Verzeichnis `.src/` befindet, über das Dockerfile schichtweise aufgebaut.
+
+
+## GitHub Actions
+Im Verzeichnis `.github/workflows` sind Automatisierungsszenarien für GitHub Actions hinterlegt. Die Datei `docker-image.yml` beschreibt einen Workflow, der den Prozess des Erstellens und Veröffentlichens eines Docker-Images automatisiert. Mehr Details dazu unter [GitHub Wiki](https://github.com/Naime-Diler/Customer-Segmentation-Analysis/wiki).
+
+
 ## Beitrag
-Das Projekt ist Open Source und steht für Beiträge offen. Sie können über GitHub Pull Requests einreichen, um das Projekt zu verbessern. Weitere Details finden Sie in der GitHub-Wiki.
+Das Projekt ist Open Source und steht für Beiträge offen. Sie können über GitHub Pull Requests einreichen, um das Projekt zu verbessern. Weitere Details finden Sie in der [GitHub Wiki](https://github.com/Naime-Diler/Customer-Segmentation-Analysis/wiki)..
 
 ## Lizenz
 Dieses Projekt ist unter der MIT-Lizenz lizenziert.
