@@ -7,8 +7,7 @@ Ziel dieses Projekts ist es, mithilfe der Kundendaten aus dem `MallCustomer.csv`
 Der `MallCustomer.csv`-Datensatz enthält Kundenmerkmale wie Kunden-ID, Geschlecht, Alter, Jahreseinkommen und Ausgaben-Score.
 
 ## Dateistruktur
-**`src/`**: Beinhaltet alle Python-Skripte für die explorative Datenanalyse und die Entwicklung der Segmentierungsmodelle:
-
+Alle relevanten Skripte befinden sich im Ordner **`src/`**: 
 - **`eda/`**: Explorative Datenanalyse des MallCustomer-Datensatzes.
 - **`Segmentierungsmodell/`**: Entwicklung und Validierung von Kundensegmentierungsmodellen.
 
@@ -26,7 +25,17 @@ Das Segmentierungsmodell wird unter Anwendung von Clustering-Methoden entwickelt
 ## Einrichtung
 Um das Projekt lokal auszuführen, befolgen Sie die folgenden Schritte:
 1. Klonen Sie das Repository von GitHub.
+   ```bash
+git clone https://github.com/Naime-Diler/Customer-Segmentation-Analysis.git
+
+```
 2. Installieren Sie die erforderlichen Abhängigkeiten aus der Datei `requirements.txt`.
+      ```bash
+pip install -r requirements.txt
+
+
+```
+
 3. Verwenden Sie das Dockerfile, um das Projekt in einem Docker-Container zu starten.
 
 ## Dockerfile  
