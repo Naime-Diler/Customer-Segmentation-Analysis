@@ -42,17 +42,12 @@ python src/eda.py
 python src/Segmentierungsmodell.py
 ```
 
-
-## Dockerfile  
-Im Projekt wurde die Datei `Segmentierungsmodell.py`, die sich im Verzeichnis `.src/` befindet, über das Dockerfile schichtweise aufgebaut.
-
-
 ## GitHub Actions
-Im Verzeichnis `.github/workflows` sind Automatisierungsszenarien für GitHub Actions hinterlegt. Die Datei `docker-image.yml` beschreibt einen Workflow, der den Prozess des Erstellens und Veröffentlichens eines Docker-Images automatisiert. Mehr Details dazu unter [GitHub Wiki](https://github.com/Naime-Diler/Customer-Segmentation-Analysis/wiki).
+Automatisierungsskripte für GitHub Actions befinden sich im Verzeichnis `.github/workflows`. Die Datei `docker-image.yml` beschreibt den Workflow zum Erstellen und Veröffentlichen eines Docker-Images. Mehr Informationen dazu finden Sie im [GitHub Wiki](https://github.com/Naime-Diler/Customer-Segmentation-Analysis/wiki).
 
 
 ## Beitrag
-Das Projekt ist Open Source und steht für Beiträge offen. Sie können über GitHub Pull Requests einreichen, um das Projekt zu verbessern. Weitere Details finden Sie in der [GitHub Wiki](https://github.com/Naime-Diler/Customer-Segmentation-Analysis/wiki).
+Das Projekt ist Open Source und steht für Beiträge offen. Sie können über GitHub Pull Requests einreichen, um das Projekt zu verbessern. Weitere Details finden Sie im [GitHub Wiki](https://github.com/Naime-Diler/Customer-Segmentation-Analysis/wiki).
 
 ## Lizenz
 Dieses Projekt ist unter der MIT-Lizenz lizenziert.
