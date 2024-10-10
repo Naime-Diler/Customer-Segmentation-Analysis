@@ -52,7 +52,7 @@ Im Verzeichnis `.github/workflows` sind Automatisierungsszenarien für GitHub Ac
 
 
 ## Beitrag
-Das Projekt ist Open Source und steht für Beiträge offen. Sie können über GitHub Pull Requests einreichen, um das Projekt zu verbessern. Weitere Details finden Sie in der [GitHub Wiki](https://github.com/Naime-Diler/Customer-Segmentation-Analysis/wiki)..
+Das Projekt ist Open Source und steht für Beiträge offen. Sie können über GitHub Pull Requests einreichen, um das Projekt zu verbessern. Weitere Details finden Sie in der [GitHub Wiki](https://github.com/Naime-Diler/Customer-Segmentation-Analysis/wiki).
 
 ## Lizenz
 Dieses Projekt ist unter der MIT-Lizenz lizenziert.
